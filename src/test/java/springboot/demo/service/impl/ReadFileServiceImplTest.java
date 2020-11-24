@@ -20,7 +20,7 @@ class ReadFileServiceImplTest {
     private final ReadFileService readFileService;
 
     @Autowired
-    ReadFileServiceImplTest(ReadFileService readFileService) {
+    public ReadFileServiceImplTest(ReadFileService readFileService) {
         this.readFileService = readFileService;
     }
 
